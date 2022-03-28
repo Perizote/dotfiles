@@ -5,7 +5,6 @@ return require('packer').startup(function()
     use 'kyazdani42/nvim-tree.lua'
     use 'rcarriga/nvim-notify'
     use 'nvim-lualine/lualine.nvim'
-    -- use 'romgrk/barbar.nvim'
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     use 'nvim-treesitter/nvim-treesitter-refactor'
     use 'windwp/nvim-ts-autotag'
@@ -25,6 +24,7 @@ return require('packer').startup(function()
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'tami5/lspsaga.nvim'
     use 'lewis6991/gitsigns.nvim'
+    use 'github/copilot.vim'
 
     --> LSP plugins
     use 'neovim/nvim-lspconfig'
