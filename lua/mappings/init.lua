@@ -26,16 +26,6 @@ map('n', '<right>', ':vertical resize -2<cr>', opts)
 --> nvim-tree mappings
 map('n', '<leader>e', ':NvimTreeToggle<cr>', opts)
 
---> barbar mappings
--- map('n', '<Leader>tc', ':BufferClose<CR>', opts)
--- map('n', '<Leader>tca', ':BufferCloseAllButCurrent<CR>', opts)
--- map('n', '<Leader>tcl', ':BufferCloseBuffersLeft<CR>', opts)
--- map('n', '<Leader>tcr', ':BufferCloseBuffersRight<CR>', opts)
--- map('n', '<Leader>tp', ':BufferPick<CR>', opts)
--- map('n', '<Space>bb', ':BufferOrderByBufferNumber<CR>', opts)
--- map('n', '<Space>bd', ':BufferOrderByDirectory<CR>', opts)
--- map('n', '<Space>bl', ':BufferOrderByLanguage<CR>', opts)
-
 --> telescope mappings
 map('n', '<leader>ff', ':Telescope find_files<CR>', opts)
 map('n', '<leader>fg', ':Telescope live_grep<CR>', opts)
@@ -46,6 +36,3 @@ map('n', '<leader>fc', ':Telescope command_history<CR>', opts)
 --> toggleterm mappings
 map('n', '<leader>tv', '<Cmd>exe v:count1 . "ToggleTerm direction=vertical size=60"<CR>', opts)
 map('n', '<leader>tf', '<Cmd>exe v:count1 . "ToggleTerm direction=float"<CR>', opts)
-
---> zen-mode mappings
-map('n', '<Leader>z', ':ZenMode<CR>', opts)

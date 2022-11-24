@@ -17,14 +17,11 @@ return require('packer').startup(function()
     use 'norcalli/nvim-colorizer.lua'
     use 'windwp/nvim-autopairs'
     use 'lukas-reineke/indent-blankline.nvim'
-    use 'akinsho/toggleterm.nvim'
+    use {"akinsho/toggleterm.nvim", tag = '*'}
     use 'ggandor/lightspeed.nvim'
-    use 'nvim-neorg/neorg'
-    use 'nvim-neorg/neorg-telescope'
     use 'jose-elias-alvarez/null-ls.nvim'
     use 'tami5/lspsaga.nvim'
     use 'lewis6991/gitsigns.nvim'
-    use 'github/copilot.vim'
 
     --> LSP plugins
     use 'neovim/nvim-lspconfig'

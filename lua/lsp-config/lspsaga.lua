@@ -8,7 +8,7 @@ require'lspsaga'.setup {
     infor_sign = "",
     diagnostic_header_icon = "   ",
     -- code action title icon
-    code_action_icon = " ",
+    code_action_icon = "",
     code_action_prompt = {
     enable = true,
     sign = true,
@@ -40,3 +40,13 @@ require'lspsaga'.setup {
     server_filetype_map = {},
     diagnostic_prefix_format = "%d. ",
 }
+--[[ local keymap = vim.keymap.set ]]
+--[[ local saga = require('lspsaga') ]]
+
+--[[ saga.init_lsp_saga() ]]
+
+-- Peek Definition
+-- you can edit the definition file in this flaotwindow
+-- also support open/vsplit/etc operation check definition_action_keys
+-- support tagstack C-t jump back
+--[[ keymap("n", "gd", "<cmd>Lspsaga peek_definition<CR>", { silent = true }) ]]
