@@ -8,7 +8,7 @@ map('i', 'jj', '<esc>', opts)
 map('n', 'qq', '<esc>:q<cr>', opts)
 map('n', '<Leader>ss', ':w<cr>', opts)
 map('n', '<Leader>sa', ':wa<cr>', opts)
-map('n', 'zf', 'zf%', opts)
+--[[ map('n', 'zf', 'zf%', opts) ]]
 
 --> splits mappings
 map('n', '<leader>w', '<c-w>', opts)
